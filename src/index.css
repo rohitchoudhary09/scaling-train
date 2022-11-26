@@ -1,0 +1,20 @@
+/* text: #978d61 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Milky Walky;
+    src: url(../src/fonts/milky/MilkyWalky-Regular.otf);
+  }
+
+.milky{
+    font-family: Milky Walky;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* bg: #184642 */
+/* api: https://api.unsplash.com/search/photos?page=1&query=${img}&client_id=YOUR_ACCESS_KEY */
